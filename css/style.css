@@ -24,17 +24,6 @@ body{
     padding: 20px;
     border-radius: 10px;
 }
-form label, form input, form button{
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-}
-form input{
-    padding: 10px;
-}
-form input:focus{
-    outline: 1px solid var(--primary--color);
-}
 form button{
     cursor: pointer;
     border:none;
@@ -47,18 +36,6 @@ form button{
 }
 form button:hover{
     background-color: #45214A;
-}
-ul{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-.containerUl{
-    display: flex;
-    justify-content: space-between;
-}
-.resultado{
-    background-color: #5D8A66;
 }
 .relogio{
     font-size: 60px;
